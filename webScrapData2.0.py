@@ -37,6 +37,6 @@ for champions in leagueTable.find_all('tbody'):
 dict = {'championsName':listChampions,'championsUrlImg':listChampionsImg}
 
 df=pd.DataFrame(dict)
-df.to_csv('listinhabotlol2.0/Data/AllChampionsList.csv')
+df.to_csv('AllChampionsList.csv')
 
 driver.quit()
